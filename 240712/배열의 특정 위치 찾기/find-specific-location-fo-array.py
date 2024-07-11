@@ -14,4 +14,4 @@ for i in range(3):
 
 aver = aver/3
 
-print(total, aver)
+print(total, round(aver,1))
