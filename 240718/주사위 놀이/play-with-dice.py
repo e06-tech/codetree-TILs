@@ -8,4 +8,4 @@ for elem in result:
 
 for i in range(1, 7):
     cnt = result_array[i]
-    print(print("{i} - {cnt}"))
+    print(i, "-" ,cnt)
