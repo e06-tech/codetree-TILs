@@ -1,7 +1,7 @@
 #key point: 0은 항상 배열의 맨 마지막!
 
 array = list(map(int, input().split()))
-number = [0]*10
+number = [0]*(len(array)+1)
 
 for i in range(len(array)):
     array[i] = array[i]//10
