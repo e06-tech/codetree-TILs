@@ -36,3 +36,8 @@
 [easy]: https://img.shields.io/badge/쉬움-%235cb85c.svg?for-the-badge
 [medium]: https://img.shields.io/badge/보통-%23FFC433.svg?for-the-badge
 [hard]: https://img.shields.io/badge/어려움-%23D24D57.svg?for-the-badge
+
+
+코드에도 주석은 달아 뒀지만 (50,3), (10,2)와 같은 케이스를 이용하여 수정 성공.
+(50,3): 나머지가 0 1 0 이렇게 나오는데, 이 때 result.sort()를 넣어 한 번 소팅해 주지 않으면 0 2번 1 한번인데 각각 1번씩 등장한 걸로 카운트해 최종 정답이 3이 나오는 사태가 발생한다.
+(10,2): 막판에 a=1이 되는데, 여기서 계산을 멈춰야 한다. 'a가 1 이하가 되기 전까지' 라는 말이 다소 헛갈리기 쉽지만 'a가 1 이하가 되는' 그 순간 while문은 바로 깨져야 한다. 더 이상 어떤 원소도 results에 추가되어서는 안 된다.
