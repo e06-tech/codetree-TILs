@@ -8,6 +8,6 @@ for i, char in enumerate(T):
         idx = i
         print(idx)
         break
-    else:
-        print('None')
-        break
+
+if idx == -1:
+    print('None')
