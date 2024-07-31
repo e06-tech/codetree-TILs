@@ -6,6 +6,9 @@ while a >= 1:
     results.append(c)
     a = a//b
 
+results.sort()
+#테스트 케이스에서는 해당 코드가 없어도 통과. 그러나 (50,3)이라는 케이스를 고려하면 왜 있어야 하는지 알게 됨.
+
 results_num = [1]
 
 for i in range (1, len(results)):
