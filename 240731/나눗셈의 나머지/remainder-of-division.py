@@ -1,7 +1,7 @@
 results = []
 a, b = map(int, input().split())
 
-while a >= 1:
+while a > 1:
     c = a%b
     results.append(c)
     a = a//b
