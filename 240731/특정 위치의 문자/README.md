@@ -36,3 +36,13 @@
 [easy]: https://img.shields.io/badge/쉬움-%235cb85c.svg?for-the-badge
 [medium]: https://img.shields.io/badge/보통-%23FFC433.svg?for-the-badge
 [hard]: https://img.shields.io/badge/어려움-%23D24D57.svg?for-the-badge
+
+배열의 index와 원소 정보를 동시에 받을 수 있는 enumerate 함수를 처음 써 본 날. 
+
+덕분에 아래와 같은 코드를 짜 볼 수 있었다.
+
+for i, char in enumerate(T):
+    if char == letter:
+        idx = i
+        print(idx)
+        break
