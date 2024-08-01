@@ -17,8 +17,9 @@ for i in range(q):
         for elem in array:
             if elem == b:
                idx = array.index(b)
+               print(idx+1)
                break
-                print(idx+1) 
+
             else:
                 print(0)
 
