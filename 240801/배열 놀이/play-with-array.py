@@ -18,7 +18,9 @@ for i in range(q):
             if elem == b:
                idx = array.index(b)
                break
-        print(idx+1) 
+                print(idx+1) 
+            else:
+                print(0)
 
     else:
         s = list_x[1]
