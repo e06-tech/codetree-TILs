@@ -12,16 +12,24 @@ for i in range(q):
 
     elif list_x[0] == 2:
         b = list_x[1]
+        inx = -1 
+        #idx 감지를 위한 표지판
+        
         idx = 0
         #index를 출력하고 싶으면 'idx'라고 똑바로 입력할 것. inx 등으로 오타 내면 안 된다!
         for elem in array:
             if elem == b:
                idx = array.index(b)
-               print(idx+1)
+               inx = 1
                break
+            
+        if inx == -1:
+            print(0)
+        else:
+            print(idx+1)
+        #inx가 -1로 남아 있다 -> 맞는 원소 없음. 0 출력.
+        #inx가 -1이 아니다 -> 맞는 원소 있음. index 정보 출력.
 
-            else:
-                print(0)
 
     else:
         s = list_x[1]
