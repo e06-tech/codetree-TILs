@@ -5,12 +5,12 @@ nums.sort()
 #배열 nums 정렬
 
 nums_selected = []
-for i in range(len(nums)):
-    if i == 0 or i == len(nums)-1:
+for i in range(N):
+    if i == 0 or i == N-1:
         if nums[0] != nums[1]:
             nums_selected.append(nums[0])
-        if nums[len(nums)-1] != nums[len(nums)-2]:
-            nums_selected.append(len(nums)-1)
+        if nums[N-1] != nums[N-2]:
+            nums_selected.append(N-1)
         
     else:
         if nums[i] != nums[i-1] and nums[i] != nums[i+1]:
