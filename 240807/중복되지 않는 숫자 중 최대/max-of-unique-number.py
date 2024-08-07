@@ -20,4 +20,8 @@ for i in range(N):
             nums_selected.append(nums[i])
 #중복되지 않는다 = 양쪽의 숫자와 모두 일치하지 않는다!! (단, 양끝은 각자의 왼/오와 불일치하면 되므로 예외)
 
-print(nums_selected[-1])
+if len(nums_selected) != 0:
+    print(nums_selected[-1])
+else:
+    print(-1)
+#으아... 눈 빠지게 중복되는 원소 제거하고 범위 내 최대 원소 잡는 코드만 짜다가 정작 중요한 걸 놓쳤다...
