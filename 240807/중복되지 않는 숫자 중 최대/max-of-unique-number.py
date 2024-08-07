@@ -6,9 +6,7 @@ nums.sort()
 
 if N == 1:
     print(nums[0])
-exit()
-# N == 1일 시, 이대로 프로그램 종료!
-
+    exit()
 
 nums_selected = []
 for i in range(N):
