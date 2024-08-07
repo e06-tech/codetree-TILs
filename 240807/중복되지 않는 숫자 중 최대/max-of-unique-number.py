@@ -11,7 +11,7 @@ for i in range(N):
             nums_selected.append(nums[0])
     if i == N-1:
         if nums[N-1] != nums[N-2]:
-            nums_selected.append(N-1)
+            nums_selected.append(nums[N-1])
     #if-elif-else구조로 짜지 말 것! if-elif 구조를 적용하면 i==N-1일 경우를 그대로 지나쳐 버리기 때문에 쓸데없는 오류만 생기고 더 힘들어진다!    
     # (else로 바로 넘어가 버리기 때문에 오류 발생)
     if i != 0 and i != N-1:
