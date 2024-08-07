@@ -4,6 +4,12 @@ nums = list(map(int, input().split()))
 nums.sort()
 #배열 nums 정렬
 
+if N == 1:
+    print(nums[0])
+exit()
+# N == 1일 시, 이대로 프로그램 종료!
+
+
 nums_selected = []
 for i in range(N):
     if i == 0: 
