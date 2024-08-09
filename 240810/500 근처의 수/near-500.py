@@ -14,3 +14,5 @@ for elem in numbers:
         above.append(elem)
 
 print(below, min(above))
+
+#간단하게 후룩 풀린 문제!
