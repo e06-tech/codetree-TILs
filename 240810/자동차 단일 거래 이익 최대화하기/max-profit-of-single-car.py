@@ -19,3 +19,5 @@ for elem in profit:
 #이익의 최댓값 구하기
 
 print(profit_max)
+
+#이것도 한 번에 정답! 컨디션 좋을 때 푸니까 쭉쭉 풀린다.
