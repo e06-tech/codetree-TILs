@@ -36,3 +36,6 @@
 [easy]: https://img.shields.io/badge/쉬움-%235cb85c.svg?for-the-badge
 [medium]: https://img.shields.io/badge/보통-%23FFC433.svg?for-the-badge
 [hard]: https://img.shields.io/badge/어려움-%23D24D57.svg?for-the-badge
+
+
+다시 한 번 풀어 볼 것. 이건 내 힘으로 온전히 푼 게 아니다. 다른 풀이를 가져다 썼고, 그걸 이해할 새도 없이 제출했다. 이걸 이해해야 돼. 그래야 내 것이 된다.
