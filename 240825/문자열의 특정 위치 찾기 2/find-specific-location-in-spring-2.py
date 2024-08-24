@@ -1,4 +1,4 @@
-words =["apple", "banana", "grape", "bluberry", "orange"]
+words =["apple", "banana", "grape", "blueberry", "orange"]
 targets = []
 
 letter = input()
