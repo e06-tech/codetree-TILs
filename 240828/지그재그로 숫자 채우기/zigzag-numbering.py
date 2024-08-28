@@ -21,3 +21,5 @@ for row in arr:
     for elem in row:
         print(elem, end = ' ')
     print()
+
+#오예! 한 번에 맞았다!
