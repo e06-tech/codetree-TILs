@@ -11,7 +11,7 @@ for i in range(l-1):
 
 for i in range(l-1):
     if words[i:i+2] == 'ab':
-        answer.append('Yes')
+        answer[1] = ('Yes')
     else:
         pass
 
